@@ -15,7 +15,7 @@ jobs:
     - name: Build release distributions
       run: |
         python3 -m pip install build --user
-        python 3 -m build
+        python3 -m build
 
     - name: Store the distribution packages
       uses: actions/upload-artifact@v4
